@@ -14,7 +14,7 @@ df_human = pd.read_csv(human_blog_posts_path)
 df_ai = pd.read_csv(ai_blog_posts_path)
 
 # configuring API key and selecting generative language model
-genai.configure(api_key="AIzaSyCkTDJidvCdoo3vSinFNLYutZV43pm_fBI")
+genai.configure(api_key="your_key")
 
 model = genai.GenerativeModel(
   model_name="gemini-1.5-flash",
