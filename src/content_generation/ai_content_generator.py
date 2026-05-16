@@ -31,7 +31,7 @@ number_synthetic_contents = 100
 categories = set(df_human["topic_category"])
 
 # configuring API key and selecting the generative model
-genai.configure(api_key="AIzaSyCkTDJidvCdoo3vSinFNLYutZV43pm_fBI")
+genai.configure(api_key="your_key")
 
 model = genai.GenerativeModel(
   model_name="gemini-1.5-flash",
